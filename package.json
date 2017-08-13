@@ -29,17 +29,17 @@
   "homepage": "https://github.com/admmasters/node-flow-starter#readme",
   "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.0.0",
-    "babel-eslint": "^7.2.3",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-flow": "^6.23.0",
-    "eslint": "^4.4.1",
-    "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-watch": "^3.1.2",
-    "npm-run-all": "^4.0.2",
-    "nsp": "^2.7.0",
-    "prettier": "^1.5.3"
+    "babel-cli": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-flow": "6.23.0",
+    "eslint": "4.4.1",
+    "eslint-config-airbnb-base": "11.3.1",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-watch": "3.1.2",
+    "npm-run-all": "4.0.2",
+    "nsp": "2.7.0",
+    "prettier": "1.5.3"
   }
 }
