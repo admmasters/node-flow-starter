@@ -5,20 +5,24 @@
   "engines": {
     "node": ">=6"
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d dist",
-    "watch": "yarn run build -- --watch"
+    "build:watch": "npm run build -- --watch",
+    "format": "prettier --trailing-comma es5 --single-quote --write 'src/*/*.js'",
+    "security:check": "nsp check",
+    "type:check": "flow check",
+    "lint": "esw 'src/*/*.js'",
+    "lint:watch": "npm run lint:watch",
+    "start": "run-p build:watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/admmasters/node-flow-starter.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "starter-kit", "boilerplate", "flow", "flowtype"],
+  "author": "Matt Revell",
   "bugs": {
     "url": "https://github.com/admmasters/node-flow-starter/issues"
   },
@@ -27,9 +31,15 @@
   "devDependencies": {
     "babel-cli": "^6.0.0",
     "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
     "eslint": "^4.4.1",
     "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-watch": "^3.1.2",
+    "npm-run-all": "^4.0.2",
+    "nsp": "^2.7.0",
+    "prettier": "^1.5.3"
   }
 }
