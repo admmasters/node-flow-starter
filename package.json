@@ -1,0 +1,35 @@
+{
+  "name": "node-flow-starter",
+  "version": "1.0.0",
+  "description": "A simple FlowType starter kit for building node applications",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "watch": "yarn run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admmasters/node-flow-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/admmasters/node-flow-starter/issues"
+  },
+  "homepage": "https://github.com/admmasters/node-flow-starter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
