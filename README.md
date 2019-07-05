@@ -1,4 +1,7 @@
 # node-flow-starter
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/admmasters/node-flow-starter.svg)](https://greenkeeper.io/)
+
 A simple FlowType starter kit for building node applications
 
 # Includes:
